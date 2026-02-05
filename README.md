@@ -1,3 +1,17 @@
+Forked from [https://github.com/NickAlilovic/build (branch v20250306)](https://github.com/NickAlilovic/build) with the following modifications:
+
+1. Changed kernel preemption mode from **full preemption** to **voluntary preemption**.
+2. Added MediaTek Wi-Fi drivers.
+3. Embedded kernel headers.
+
+Only **server image** is provided for board **IK316-EMCP_V1.0**
+(Allwinner H616 + 1 GB DDR3 + 8 GB eMMC + AXP313A + SV6256P).
+
+⚠️ **Note:** There is currently no available driver for **SV6256P**, so onboard Wi-Fi is not supported.
+
+<img src="pic/IK316-EMCP_V1.0.jpg" alt="IK316-EMCP_V1.0" width="600" height="649">
+
+<hr/>
 <p align="center">
   <a href="#build-framework">
   <img src=".github/armbian-logo.png" alt="Armbian logo" width="144">
